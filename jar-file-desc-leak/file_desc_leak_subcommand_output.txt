@@ -5,13 +5,13 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ file-descriptor-leak ---
-[INFO] Deleting /opt/git/puppet-server/jruby9k-benchmarks/jar-file-desc-leak/target
+[INFO] Deleting /s/repos/jruby9k-benchmarks/jar-file-desc-leak/target
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.163 s
-[INFO] Finished at: 2016-05-25T16:51:39-07:00
-[INFO] Final Memory: 9M/228M
+[INFO] Total time: 0.201 s
+[INFO] Finished at: 2016-06-01T14:22:24-07:00
+[INFO] Final Memory: 7M/245M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -21,18 +21,18 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ file-descriptor-leak ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /opt/git/puppet-server/jruby9k-benchmarks/jar-file-desc-leak/src/main/resources
+[INFO] skip non existing resourceDirectory /s/repos/jruby9k-benchmarks/jar-file-desc-leak/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ file-descriptor-leak ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 1 source file to /opt/git/puppet-server/jruby9k-benchmarks/jar-file-desc-leak/target/classes
+[INFO] Compiling 1 source file to /s/repos/jruby9k-benchmarks/jar-file-desc-leak/target/classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.143 s
-[INFO] Finished at: 2016-05-25T16:51:41-07:00
-[INFO] Final Memory: 16M/234M
+[INFO] Total time: 1.215 s
+[INFO] Finished at: 2016-06-01T14:22:26-07:00
+[INFO] Final Memory: 18M/301M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -75,7 +75,7 @@ java.lang.IllegalThreadStateException
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
@@ -83,7 +83,7 @@ java.lang.IllegalThreadStateException
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 27.013 s
-[INFO] Finished at: 2016-05-25T16:52:09-07:00
-[INFO] Final Memory: 139M/718M
+[INFO] Total time: 25.997 s
+[INFO] Finished at: 2016-06-01T14:22:53-07:00
+[INFO] Final Memory: 136M/766M
 [INFO] ------------------------------------------------------------------------

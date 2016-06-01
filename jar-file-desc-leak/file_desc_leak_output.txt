@@ -1,126 +1,26 @@
-Iteration #0; number of open fd: 115
-Iteration #1; number of open fd: 120
-Iteration #2; number of open fd: 125
-Iteration #3; number of open fd: 130
-Iteration #4; number of open fd: 135
-Iteration #5; number of open fd: 140
-Iteration #6; number of open fd: 145
-Iteration #7; number of open fd: 150
-Iteration #8; number of open fd: 155
-Iteration #9; number of open fd: 160
+Iteration #0; number of open fd: 112
+Iteration #1; number of open fd: 112
+Iteration #2; number of open fd: 112
+Iteration #3; number of open fd: 112
+Iteration #4; number of open fd: 112
+Iteration #5; number of open fd: 112
+Iteration #6; number of open fd: 112
+Iteration #7; number of open fd: 112
+Iteration #8; number of open fd: 112
+Iteration #9; number of open fd: 112
 Final list of JRuby jar fds from lsof output:
 
-java    17126 cprice  mem    REG                8,1  1029206  1848495 /tmp/jruby-17126/jruby330850489282909469jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848494 /tmp/jruby-17126/jruby8245633335632577945bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848493 /tmp/jruby-17126/jruby669801017273339795bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848488 /tmp/jruby-17126/jruby6848607487307162700jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848487 /tmp/jruby-17126/jruby255045262289777641bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848486 /tmp/jruby-17126/jruby7219960071871979261bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848481 /tmp/jruby-17126/jruby1147700673856667506jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848480 /tmp/jruby-17126/jruby7830163319269812668bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848479 /tmp/jruby-17126/jruby1970992638648720158bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848474 /tmp/jruby-17126/jruby468778589693079715jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848473 /tmp/jruby-17126/jruby2163753612650177342bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848472 /tmp/jruby-17126/jruby8256229293171782140bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848467 /tmp/jruby-17126/jruby5230956203442104600jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848466 /tmp/jruby-17126/jruby1451088185756706763bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848465 /tmp/jruby-17126/jruby915577731426501224bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848460 /tmp/jruby-17126/jruby269057771754371906jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848459 /tmp/jruby-17126/jruby5301335354174507066bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848458 /tmp/jruby-17126/jruby6118480961338680241bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848453 /tmp/jruby-17126/jruby1058361933769566822jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848452 /tmp/jruby-17126/jruby8446080698430402471bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1    36598  1848497 /tmp/jruby-17126/jruby2884666821368404092generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848496 /tmp/jruby-17126/jruby7281732402069595925parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848490 /tmp/jruby-17126/jruby7754887602930879853generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848489 /tmp/jruby-17126/jruby8538892424913499187parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848483 /tmp/jruby-17126/jruby3922820635132975463generator.jar
-java    17126 cprice  mem    REG                8,1   673715  1848451 /tmp/jruby-17126/jruby3132060987306296296bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848446 /tmp/jruby-17126/jruby401078046624111671jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848445 /tmp/jruby-17126/jruby1475714438085527118bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848444 /tmp/jruby-17126/jruby2410019259621422311bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848439 /tmp/jruby-17126/jruby6082692668972190637jopenssl.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848429 /tmp/jruby-17126/jruby5017201263072114175bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1   673715  1848428 /tmp/jruby-17126/jruby51693826433265673bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG                8,1    29184  1848482 /tmp/jruby-17126/jruby1771549952293817840parser.jar
-java    17126 cprice  mem    REG                8,1  3277268  1848356 /tmp/jruby-17126/jruby3032959514926528333bcprov-jdk15on-1.54.jar
-java    17126 cprice  mem    REG               8,17 10384505 11274416 /home/cprice/.m2/repository/org/jruby/jruby-stdlib/9.1.1.0/jruby-stdlib-9.1.1.0.jar
-java    17126 cprice  mem    REG                8,1    36598  1848476 /tmp/jruby-17126/jruby8610769108042781211generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848475 /tmp/jruby-17126/jruby1304773775945453191parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848469 /tmp/jruby-17126/jruby4410986276256647009generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848468 /tmp/jruby-17126/jruby503759374247561105parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848462 /tmp/jruby-17126/jruby3625443542169820862generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848461 /tmp/jruby-17126/jruby594688370110891661parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848455 /tmp/jruby-17126/jruby2604740213082952729generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848454 /tmp/jruby-17126/jruby3759725513986261000parser.jar
-java    17126 cprice  mem    REG                8,1    29184  1848447 /tmp/jruby-17126/jruby2448491911771938169parser.jar
-java    17126 cprice  mem    REG                8,1  1029206  1848358 /tmp/jruby-17126/jruby4137058928634775898jopenssl.jar
-java    17126 cprice  mem    REG               8,17  8960776 11274414 /home/cprice/.m2/repository/org/jruby/jruby-core/9.1.1.0/jruby-core-9.1.1.0.jar
-java    17126 cprice  mem    REG                8,1    36598  1848448 /tmp/jruby-17126/jruby4097678738666287945generator.jar
-java    17126 cprice  mem    REG                8,1    36598  1848441 /tmp/jruby-17126/jruby2126566904426439730generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848440 /tmp/jruby-17126/jruby9067425560400787992parser.jar
-java    17126 cprice  mem    REG                8,1    36598  1848422 /tmp/jruby-17126/jruby8353023711141954516generator.jar
-java    17126 cprice  mem    REG                8,1    29184  1848421 /tmp/jruby-17126/jruby1462198736652319146parser.jar
-java    17126 cprice  mem    REG                8,1   673715  1848353 /tmp/jruby-17126/jruby1396570877984521557bcpkix-jdk15on-1.54.jar
-java    17126 cprice  mem    REG               8,17    16400 11274395 /home/cprice/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar
-java    17126 cprice  mem    REG               8,17  1600548 11274394 /home/cprice/.m2/repository/org/jruby/jcodings/jcodings/1.0.17/jcodings-1.0.17.jar
-java    17126 cprice  mem    REG               8,17    11031 11274393 /home/cprice/.m2/repository/org/jruby/extras/bytelist/1.0.13/bytelist-1.0.13.jar
-java    17126 cprice  mem    REG               8,17   190899 11274390 /home/cprice/.m2/repository/org/jruby/joni/joni/2.1.10/joni-2.1.10.jar
-java    17126 cprice   81r   REG               8,17  8960776 11274414 /home/cprice/.m2/repository/org/jruby/jruby-core/9.1.1.0/jruby-core-9.1.1.0.jar
-java    17126 cprice   89r   REG               8,17   190899 11274390 /home/cprice/.m2/repository/org/jruby/joni/joni/2.1.10/joni-2.1.10.jar
-java    17126 cprice   90r   REG               8,17    11031 11274393 /home/cprice/.m2/repository/org/jruby/extras/bytelist/1.0.13/bytelist-1.0.13.jar
-java    17126 cprice   91r   REG               8,17  1600548 11274394 /home/cprice/.m2/repository/org/jruby/jcodings/jcodings/1.0.17/jcodings-1.0.17.jar
-java    17126 cprice   92r   REG               8,17    16400 11274395 /home/cprice/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar
-java    17126 cprice   98r   REG               8,17 10384505 11274416 /home/cprice/.m2/repository/org/jruby/jruby-stdlib/9.1.1.0/jruby-stdlib-9.1.1.0.jar
-java    17126 cprice  108r   REG                8,1   673715  1848353 /tmp/jruby-17126/jruby1396570877984521557bcpkix-jdk15on-1.54.jar
-java    17126 cprice  110r   REG                8,1  3277268  1848356 /tmp/jruby-17126/jruby3032959514926528333bcprov-jdk15on-1.54.jar
-java    17126 cprice  111r   REG                8,1  1029206  1848358 /tmp/jruby-17126/jruby4137058928634775898jopenssl.jar
-java    17126 cprice  112r   REG                8,1    29184  1848421 /tmp/jruby-17126/jruby1462198736652319146parser.jar
-java    17126 cprice  114r   REG                8,1    36598  1848422 /tmp/jruby-17126/jruby8353023711141954516generator.jar
-java    17126 cprice  115r   REG                8,1   673715  1848428 /tmp/jruby-17126/jruby51693826433265673bcpkix-jdk15on-1.54.jar
-java    17126 cprice  116r   REG                8,1  3277268  1848429 /tmp/jruby-17126/jruby5017201263072114175bcprov-jdk15on-1.54.jar
-java    17126 cprice  117r   REG                8,1  1029206  1848439 /tmp/jruby-17126/jruby6082692668972190637jopenssl.jar
-java    17126 cprice  118r   REG                8,1    29184  1848440 /tmp/jruby-17126/jruby9067425560400787992parser.jar
-java    17126 cprice  119r   REG                8,1    36598  1848441 /tmp/jruby-17126/jruby2126566904426439730generator.jar
-java    17126 cprice  120r   REG                8,1   673715  1848444 /tmp/jruby-17126/jruby2410019259621422311bcpkix-jdk15on-1.54.jar
-java    17126 cprice  121r   REG                8,1  3277268  1848445 /tmp/jruby-17126/jruby1475714438085527118bcprov-jdk15on-1.54.jar
-java    17126 cprice  122r   REG                8,1  1029206  1848446 /tmp/jruby-17126/jruby401078046624111671jopenssl.jar
-java    17126 cprice  123r   REG                8,1    29184  1848447 /tmp/jruby-17126/jruby2448491911771938169parser.jar
-java    17126 cprice  124r   REG                8,1    36598  1848448 /tmp/jruby-17126/jruby4097678738666287945generator.jar
-java    17126 cprice  125r   REG                8,1   673715  1848451 /tmp/jruby-17126/jruby3132060987306296296bcpkix-jdk15on-1.54.jar
-java    17126 cprice  126r   REG                8,1  3277268  1848452 /tmp/jruby-17126/jruby8446080698430402471bcprov-jdk15on-1.54.jar
-java    17126 cprice  127r   REG                8,1  1029206  1848453 /tmp/jruby-17126/jruby1058361933769566822jopenssl.jar
-java    17126 cprice  128r   REG                8,1    29184  1848454 /tmp/jruby-17126/jruby3759725513986261000parser.jar
-java    17126 cprice  129r   REG                8,1    36598  1848455 /tmp/jruby-17126/jruby2604740213082952729generator.jar
-java    17126 cprice  130r   REG                8,1   673715  1848458 /tmp/jruby-17126/jruby6118480961338680241bcpkix-jdk15on-1.54.jar
-java    17126 cprice  131r   REG                8,1  3277268  1848459 /tmp/jruby-17126/jruby5301335354174507066bcprov-jdk15on-1.54.jar
-java    17126 cprice  132r   REG                8,1  1029206  1848460 /tmp/jruby-17126/jruby269057771754371906jopenssl.jar
-java    17126 cprice  133r   REG                8,1    29184  1848461 /tmp/jruby-17126/jruby594688370110891661parser.jar
-java    17126 cprice  134r   REG                8,1    36598  1848462 /tmp/jruby-17126/jruby3625443542169820862generator.jar
-java    17126 cprice  135r   REG                8,1   673715  1848465 /tmp/jruby-17126/jruby915577731426501224bcpkix-jdk15on-1.54.jar
-java    17126 cprice  136r   REG                8,1  3277268  1848466 /tmp/jruby-17126/jruby1451088185756706763bcprov-jdk15on-1.54.jar
-java    17126 cprice  137r   REG                8,1  1029206  1848467 /tmp/jruby-17126/jruby5230956203442104600jopenssl.jar
-java    17126 cprice  138r   REG                8,1    29184  1848468 /tmp/jruby-17126/jruby503759374247561105parser.jar
-java    17126 cprice  139r   REG                8,1    36598  1848469 /tmp/jruby-17126/jruby4410986276256647009generator.jar
-java    17126 cprice  140r   REG                8,1   673715  1848472 /tmp/jruby-17126/jruby8256229293171782140bcpkix-jdk15on-1.54.jar
-java    17126 cprice  141r   REG                8,1  3277268  1848473 /tmp/jruby-17126/jruby2163753612650177342bcprov-jdk15on-1.54.jar
-java    17126 cprice  142r   REG                8,1  1029206  1848474 /tmp/jruby-17126/jruby468778589693079715jopenssl.jar
-java    17126 cprice  143r   REG                8,1    29184  1848475 /tmp/jruby-17126/jruby1304773775945453191parser.jar
-java    17126 cprice  144r   REG                8,1    36598  1848476 /tmp/jruby-17126/jruby8610769108042781211generator.jar
-java    17126 cprice  145r   REG                8,1   673715  1848479 /tmp/jruby-17126/jruby1970992638648720158bcpkix-jdk15on-1.54.jar
-java    17126 cprice  146r   REG                8,1  3277268  1848480 /tmp/jruby-17126/jruby7830163319269812668bcprov-jdk15on-1.54.jar
-java    17126 cprice  147r   REG                8,1  1029206  1848481 /tmp/jruby-17126/jruby1147700673856667506jopenssl.jar
-java    17126 cprice  148r   REG                8,1    29184  1848482 /tmp/jruby-17126/jruby1771549952293817840parser.jar
-java    17126 cprice  149r   REG                8,1    36598  1848483 /tmp/jruby-17126/jruby3922820635132975463generator.jar
-java    17126 cprice  150r   REG                8,1   673715  1848486 /tmp/jruby-17126/jruby7219960071871979261bcpkix-jdk15on-1.54.jar
-java    17126 cprice  151r   REG                8,1  3277268  1848487 /tmp/jruby-17126/jruby255045262289777641bcprov-jdk15on-1.54.jar
-java    17126 cprice  152r   REG                8,1  1029206  1848488 /tmp/jruby-17126/jruby6848607487307162700jopenssl.jar
-java    17126 cprice  153r   REG                8,1    29184  1848489 /tmp/jruby-17126/jruby8538892424913499187parser.jar
-java    17126 cprice  154r   REG                8,1    36598  1848490 /tmp/jruby-17126/jruby7754887602930879853generator.jar
-java    17126 cprice  155r   REG                8,1   673715  1848493 /tmp/jruby-17126/jruby669801017273339795bcpkix-jdk15on-1.54.jar
-java    17126 cprice  156r   REG                8,1  3277268  1848494 /tmp/jruby-17126/jruby8245633335632577945bcprov-jdk15on-1.54.jar
-java    17126 cprice  157r   REG                8,1  1029206  1848495 /tmp/jruby-17126/jruby330850489282909469jopenssl.jar
-java    17126 cprice  158r   REG                8,1    29184  1848496 /tmp/jruby-17126/jruby7281732402069595925parser.jar
-java    17126 cprice  159r   REG                8,1    36598  1848497 /tmp/jruby-17126/jruby2884666821368404092generator.jar
-Final FD count exceeds initial FD count by: 79
-Final JRuby Jar FD count exceeds initial by: 100
+java    43643 jbarlow  txt      REG                1,4    190899 63656241 /Users/jbarlow/.m2/repository/org/jruby/joni/joni/2.1.10/joni-2.1.10.jar
+java    43643 jbarlow  txt      REG                1,4     11031 63656240 /Users/jbarlow/.m2/repository/org/jruby/extras/bytelist/1.0.13/bytelist-1.0.13.jar
+java    43643 jbarlow  txt      REG                1,4   1600548 63656244 /Users/jbarlow/.m2/repository/org/jruby/jcodings/jcodings/1.0.17/jcodings-1.0.17.jar
+java    43643 jbarlow  txt      REG                1,4     16400 63656245 /Users/jbarlow/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar
+java    43643 jbarlow  txt      REG                1,4   8960776 63795526 /Users/jbarlow/.m2/repository/org/jruby/jruby-core/9.1.1.0/jruby-core-9.1.1.0.jar
+java    43643 jbarlow  txt      REG                1,4  10384505 63795525 /Users/jbarlow/.m2/repository/org/jruby/jruby-stdlib/9.1.1.0/jruby-stdlib-9.1.1.0.jar
+java    43643 jbarlow   83r     REG                1,4   8960776 63795526 /Users/jbarlow/.m2/repository/org/jruby/jruby-core/9.1.1.0/jruby-core-9.1.1.0.jar
+java    43643 jbarlow   91r     REG                1,4    190899 63656241 /Users/jbarlow/.m2/repository/org/jruby/joni/joni/2.1.10/joni-2.1.10.jar
+java    43643 jbarlow   92r     REG                1,4     11031 63656240 /Users/jbarlow/.m2/repository/org/jruby/extras/bytelist/1.0.13/bytelist-1.0.13.jar
+java    43643 jbarlow   93r     REG                1,4   1600548 63656244 /Users/jbarlow/.m2/repository/org/jruby/jcodings/jcodings/1.0.17/jcodings-1.0.17.jar
+java    43643 jbarlow   94r     REG                1,4     16400 63656245 /Users/jbarlow/.m2/repository/org/jruby/dirgra/0.3/dirgra-0.3.jar
+java    43643 jbarlow  100r     REG                1,4  10384505 63795525 /Users/jbarlow/.m2/repository/org/jruby/jruby-stdlib/9.1.1.0/jruby-stdlib-9.1.1.0.jar
+Final FD count exceeds initial FD count by: 10
+Final JRuby Jar FD count exceeds initial by: 0
