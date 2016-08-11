@@ -19,7 +19,7 @@ open(subcommand_output, 'w') do |f|
   puts "Compiling."
   f.puts `mvn compile`
   puts "Running."
-  f.puts `mvn exec:java -Dexec.mainClass=jruby9k.FileDescLeakDriver`
+  f.puts `MAVEN_OPTS="-Xms14g -Xmx14g" mvn exec:java -Dexec.mainClass=jruby9k.FileDescLeakDriver`
 end
 
 puts "Output available in '#{benchmark_output}'"

@@ -8,18 +8,18 @@
         <dependency>
             <groupId>org.jruby</groupId>
             <artifactId>jruby-core</artifactId>
-            <version>9.1.1.0</version>
+            <version>1.7.26-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.jruby</groupId>
             <artifactId>jruby-stdlib</artifactId>
-            <version>9.1.1.0</version>
+            <version>1.7.25</version>
         </dependency>
-        <dependency>
+        <!-- dependency>
             <groupId>com.github.jnr</groupId>
             <artifactId>jnr-posix</artifactId>
             <version>3.0.29</version>
-        </dependency>
+        </dependency -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
